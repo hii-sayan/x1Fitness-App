@@ -1,6 +1,6 @@
 import { ethers } from 'ethers';
-import X1_ABI from '/Users/sayan/Desktop/react-n/x1_fitness/contracts/X1TestCoin.sol/X1TestCoin.json';
-import STAKING_ABI from '/Users/sayan/Desktop/react-n/x1_fitness/contracts/Staking.sol/Staking.json';
+import X1_ABI from '../../contracts/X1TestCoin.sol/X1TestCoin.json';
+import STAKING_ABI from '../../contracts/Staking.sol/Staking.json';
 import { CHAIN_CONFIG } from './config';
 
 export const getContracts = (providerOrSigner) => {
